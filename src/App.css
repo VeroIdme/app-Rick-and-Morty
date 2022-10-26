@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    background: #161716;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.headerImg{
+    background-image: url(/images/rick-and-morty-looking-at-the-night-sky-tr8wxryct280wstz-tr8wxryct280wstz.jpg);
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    border-bottom: solid 1px #1eb9b1;
+    box-shadow: 0 0 20px  #6bf8f2;
+}
+
+.headerImg>.imgLogo{
+   height: 400px; 
+}
+.titleMain{
+    width: 50%;
+    text-align: center;
+}
+.titleMain>img{
+    width: 100%;
+}
+.form{
+    width: 70vw;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.inputTextSearch{
+    width: 70%;
+    min-width: 70%;
+    padding: 10px;
+    border: solid white;
+    border-radius: 5px;
+    margin-right: 3px;
+    
+    
+}
+.btnSearch{
+    width: 25%;
+    min-width: 25%;
+    height: 40px;
+    background: #20adbb;
+    border: solid #20adbb;
+    border-radius: 5px;
+}
+.btnSearch>img{
+    height: 60%;
+}
+.container-list-filter{
+    position: absolute;
+    display: block;
+    background-color: white;
+    top: 41px;
+    z-index: 3;
+    margin-top: 2px;
+    width: 70%;
+    min-width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+
+}
+.list-filter{
+    list-style: none;
+    text-align: start;
+    color: #24e1cf;
+    background:#161716;
+    opacity: .9;
+    font-weight: bold;
+}

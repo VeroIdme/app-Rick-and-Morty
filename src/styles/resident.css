@@ -1,0 +1,63 @@
+.container-resident{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    width: 300px;
+    
+}
+.container-image{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3px;
+}
+.container-image>img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container-info-resident{
+    background:
+    #45b0a8;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name-resident{
+    font-family: 'Anton';
+    font-weight: 300;
+    text-align: center;
+    color: #353932;
+}
+.list-info-resident{
+    list-style: none;
+}
+.info-res{
+    opacity: .8;
+    font-weight: bold;
+    color:#353932;
+}
+.item-status-res{
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.item-status-res.alive{
+    background-color: #487bd7;
+}
+.item-status-res.dead{
+    background-color: #c04435;
+}
+.item-status-res.unknown{
+    background-color: #a8afb1;
+}
